@@ -1,0 +1,76 @@
+2024-03-22:16:41:16 INFO     [main.py     :135] BEGIN PROGRAM
+2024-03-22:16:41:16 INFO     [_internal.py:96] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-22:16:41:16 INFO     [_internal.py:96] [33mPress CTRL+C to quit[0m
+2024-03-22:16:41:16 INFO     [_internal.py:96]  * Restarting with stat
+2024-03-22:16:41:16 INFO     [main.py     :135] BEGIN PROGRAM
+2024-03-22:16:41:16 WARNING  [_internal.py:96]  * Debugger is active!
+2024-03-22:16:41:16 INFO     [_internal.py:96]  * Debugger PIN: 111-302-570
+2024-03-22:16:41:55 INFO     [_internal.py:96]  * Detected change in '/Users/karenbarrientos/Documents/GitHub/taller-presencial-08-sqlite-inventory-app-Kbarrientosr/main.py', reloading
+2024-03-22:16:41:55 INFO     [_internal.py:96]  * Restarting with stat
+2024-03-22:16:41:55 INFO     [main.py     :135] BEGIN PROGRAM
+2024-03-22:16:41:55 WARNING  [_internal.py:96]  * Debugger is active!
+2024-03-22:16:41:56 INFO     [_internal.py:96]  * Debugger PIN: 111-302-570
+2024-03-22:17:05:01 INFO     [_internal.py:96]  * Detected change in '/Users/karenbarrientos/Documents/GitHub/taller-presencial-08-sqlite-inventory-app-Kbarrientosr/main.py', reloading
+2024-03-22:17:05:02 INFO     [_internal.py:96]  * Restarting with stat
+2024-03-22:17:05:02 INFO     [main.py     :135] BEGIN PROGRAM
+2024-03-22:17:05:02 WARNING  [_internal.py:96]  * Debugger is active!
+2024-03-22:17:05:02 INFO     [_internal.py:96]  * Debugger PIN: 111-302-570
+2024-03-22:17:05:33 INFO     [main.py     :126] PAGE REFRESH
+2024-03-22:17:05:33 INFO     [main.py     :37] Database Connection
+2024-03-22:17:05:33 INFO     [main.py     :68] GETPARTS() - CURRENT PART INVENTORY:
+		[<sqlite3.Row object at 0x104107070>, <sqlite3.Row object at 0x104107340>, <sqlite3.Row object at 0x104107250>, <sqlite3.Row object at 0x104106920>, <sqlite3.Row object at 0x104107400>]
+2024-03-22:17:05:33 INFO     [main.py     :56] Closed DB Connection
+2024-03-22:17:05:33 INFO     [_internal.py:96] 127.0.0.1 - - [22/Mar/2024 17:05:33] "GET / HTTP/1.1" 200 -
+2024-03-22:17:05:33 INFO     [_internal.py:96] 127.0.0.1 - - [22/Mar/2024 17:05:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-03-22:17:10:06 INFO     [_internal.py:96] 127.0.0.1 - - [22/Mar/2024 17:10:06] "POST /requestparts HTTP/1.1" 200 -
+2024-03-22:17:10:21 INFO     [main.py     :37] Database Connection
+2024-03-22:17:10:21 INFO     [main.py     :93] REQUESTPARTS().results = <sqlite3.Row object at 0x104142440>
+2024-03-22:17:10:21 INFO     [main.py     :56] Closed DB Connection
+2024-03-22:17:10:21 INFO     [_internal.py:96] 127.0.0.1 - - [22/Mar/2024 17:10:21] "[32mPOST /requestparts HTTP/1.1[0m" 302 -
+2024-03-22:17:10:21 INFO     [main.py     :126] PAGE REFRESH
+2024-03-22:17:10:21 INFO     [main.py     :37] Database Connection
+2024-03-22:17:10:21 INFO     [main.py     :68] GETPARTS() - CURRENT PART INVENTORY:
+		[<sqlite3.Row object at 0x1041427a0>, <sqlite3.Row object at 0x104142800>, <sqlite3.Row object at 0x104142860>, <sqlite3.Row object at 0x1041428c0>, <sqlite3.Row object at 0x104142920>]
+2024-03-22:17:10:21 INFO     [main.py     :56] Closed DB Connection
+2024-03-22:17:10:21 INFO     [_internal.py:96] 127.0.0.1 - - [22/Mar/2024 17:10:21] "GET / HTTP/1.1" 200 -
+2024-03-22:17:19:40 INFO     [main.py     :37] Database Connection
+2024-03-22:17:19:40 INFO     [main.py     :93] REQUESTPARTS().results = <sqlite3.Row object at 0x102bab610>
+2024-03-22:17:19:40 INFO     [main.py     :56] Closed DB Connection
+2024-03-22:17:19:40 INFO     [_internal.py:96] 127.0.0.1 - - [22/Mar/2024 17:19:40] "[32mPOST /requestparts HTTP/1.1[0m" 302 -
+2024-03-22:17:19:40 INFO     [main.py     :126] PAGE REFRESH
+2024-03-22:17:19:40 INFO     [main.py     :37] Database Connection
+2024-03-22:17:19:40 INFO     [main.py     :68] GETPARTS() - CURRENT PART INVENTORY:
+		[<sqlite3.Row object at 0x104107700>, <sqlite3.Row object at 0x104107940>, <sqlite3.Row object at 0x104107f70>, <sqlite3.Row object at 0x104107df0>, <sqlite3.Row object at 0x1041076d0>]
+2024-03-22:17:19:40 INFO     [main.py     :56] Closed DB Connection
+2024-03-22:17:19:40 INFO     [_internal.py:96] 127.0.0.1 - - [22/Mar/2024 17:19:40] "GET / HTTP/1.1" 200 -
+2024-03-22:17:19:51 INFO     [main.py     :37] Database Connection
+2024-03-22:17:19:51 INFO     [main.py     :93] REQUESTPARTS().results = <sqlite3.Row object at 0x104106bc0>
+2024-03-22:17:19:51 INFO     [main.py     :56] Closed DB Connection
+2024-03-22:17:19:51 INFO     [_internal.py:96] 127.0.0.1 - - [22/Mar/2024 17:19:51] "[32mPOST /requestparts HTTP/1.1[0m" 302 -
+2024-03-22:17:19:51 INFO     [main.py     :126] PAGE REFRESH
+2024-03-22:17:19:51 INFO     [main.py     :37] Database Connection
+2024-03-22:17:19:51 INFO     [main.py     :68] GETPARTS() - CURRENT PART INVENTORY:
+		[<sqlite3.Row object at 0x104142740>, <sqlite3.Row object at 0x1041427a0>, <sqlite3.Row object at 0x1041429e0>, <sqlite3.Row object at 0x104141630>, <sqlite3.Row object at 0x104140c40>]
+2024-03-22:17:19:51 INFO     [main.py     :56] Closed DB Connection
+2024-03-22:17:19:51 INFO     [_internal.py:96] 127.0.0.1 - - [22/Mar/2024 17:19:51] "GET / HTTP/1.1" 200 -
+2024-03-22:17:20:02 INFO     [main.py     :37] Database Connection
+2024-03-22:17:20:02 INFO     [main.py     :93] REQUESTPARTS().results = <sqlite3.Row object at 0x104142740>
+2024-03-22:17:20:02 INFO     [main.py     :56] Closed DB Connection
+2024-03-22:17:20:02 INFO     [_internal.py:96] 127.0.0.1 - - [22/Mar/2024 17:20:02] "[32mPOST /requestparts HTTP/1.1[0m" 302 -
+2024-03-22:17:20:02 INFO     [main.py     :126] PAGE REFRESH
+2024-03-22:17:20:02 INFO     [main.py     :37] Database Connection
+2024-03-22:17:20:02 INFO     [main.py     :68] GETPARTS() - CURRENT PART INVENTORY:
+		[<sqlite3.Row object at 0x104140040>, <sqlite3.Row object at 0x104142a40>, <sqlite3.Row object at 0x104142b00>, <sqlite3.Row object at 0x104142b60>, <sqlite3.Row object at 0x104142c20>]
+2024-03-22:17:20:02 INFO     [main.py     :56] Closed DB Connection
+2024-03-22:17:20:02 INFO     [_internal.py:96] 127.0.0.1 - - [22/Mar/2024 17:20:02] "GET / HTTP/1.1" 200 -
+2024-03-22:17:20:12 INFO     [main.py     :37] Database Connection
+2024-03-22:17:20:12 INFO     [main.py     :93] REQUESTPARTS().results = <sqlite3.Row object at 0x104140040>
+2024-03-22:17:20:12 INFO     [main.py     :56] Closed DB Connection
+2024-03-22:17:20:12 INFO     [_internal.py:96] 127.0.0.1 - - [22/Mar/2024 17:20:12] "[32mPOST /requestparts HTTP/1.1[0m" 302 -
+2024-03-22:17:20:12 INFO     [main.py     :126] PAGE REFRESH
+2024-03-22:17:20:12 INFO     [main.py     :37] Database Connection
+2024-03-22:17:20:12 INFO     [main.py     :68] GETPARTS() - CURRENT PART INVENTORY:
+		[<sqlite3.Row object at 0x104143430>, <sqlite3.Row object at 0x104143490>, <sqlite3.Row object at 0x1041434f0>, <sqlite3.Row object at 0x104143550>, <sqlite3.Row object at 0x1041435b0>]
+2024-03-22:17:20:12 INFO     [main.py     :56] Closed DB Connection
+2024-03-22:17:20:12 INFO     [_internal.py:96] 127.0.0.1 - - [22/Mar/2024 17:20:12] "GET / HTTP/1.1" 200 -
